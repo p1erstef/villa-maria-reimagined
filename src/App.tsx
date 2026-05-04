@@ -17,6 +17,7 @@ import LaVilla from "./pages/LaVilla";
 import Histoire from "./pages/Histoire";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/offres" element={<Offres />} />
