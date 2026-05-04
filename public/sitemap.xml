@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.villamariabordeaux.fr/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/offres</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/offres/journee</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/offres/mensuel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/offres/prive</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/offres/salles</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/evenements</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/la-villa</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/histoire</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/blog/plus-beaux-lieux-bapteme-bordeaux</loc><priority>0.6</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/blog/coworking-piscine-france</loc><priority>0.6</priority></url>
+  <url><loc>https://www.villamariabordeaux.fr/blog/afterwork-entreprise-bordeaux</loc><priority>0.6</priority></url>
+</urlset>
