@@ -78,14 +78,14 @@ const Index = () => {
 
         <div className="relative container-villa pb-16 lg:pb-24 pt-32 text-villa-cream w-full">
           <div className="max-w-5xl">
-            <div className="flex items-center gap-2 mb-6 text-xs font-bold uppercase tracking-widest text-accent">
-              <span className="w-8 h-px bg-accent" />
+            <div className="flex items-center gap-2 mb-6 text-xs font-bold uppercase tracking-widest text-villa-cream">
+              <span className="w-8 h-px bg-villa-cream" />
               Coworking & Événements · Bordeaux
             </div>
             <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl xl:text-[10rem] uppercase leading-[0.85] text-balance">
-              Le bureau<br />
-              <span className="text-accent">le plus beau</span><br />
-              de France.
+              Les plus beaux<br />
+              <span className="text-accent">bureaux</span><br />
+              de Bordeaux.
             </h1>
             <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
               Une villa bourgeoise du XVIIIᵉ. Une piscine. Un boulodrome.
