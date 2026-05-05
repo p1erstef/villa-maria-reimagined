@@ -116,7 +116,7 @@ export const BLOG_ARTICLES: BlogArticleMeta[] = [
   },
   {
     slug: "journee-villa-maria",
-    title: "Travailler dans une villa du XVIIIᵉ : une journée à Villa Maria",
+    title: "Travailler dans une villa Belle Époque : une journée à Villa Maria",
     family: "lifestyle",
     familyLabel: "Lifestyle",
     excerpt: "À venir.",
@@ -164,7 +164,7 @@ export const ARTICLE_BODIES: Record<string, () => JSX.Element> = {
         <strong>Réponse directe :</strong> Bordeaux compte une dizaine de lieux
         d'exception pour célébrer un baptême civil hors du cadre religieux :
         villas bourgeoises, châteaux viticoles, domaines avec parc. La Villa
-        Maria, demeure du XVIIIᵉ avec piscine et jardin, fait partie des
+        Maria, demeure Belle Époque avec piscine et jardin, fait partie des
         adresses les plus polyvalentes pour 30 à 120 invités.
       </p>
       <h2>Pourquoi un baptême civil à Bordeaux ?</h2>
@@ -175,7 +175,7 @@ export const ARTICLE_BODIES: Record<string, () => JSX.Element> = {
         dernières années. <Placeholder>texte à étoffer</Placeholder>
       </p>
       <h2>Les 6 lieux qui sortent du lot</h2>
-      <h3>1. Villa Maria — Demeure XVIIIᵉ avec parc et piscine</h3>
+      <h3>1. Villa Maria — Demeure Belle Époque avec parc et piscine</h3>
       <p>
         Située au cœur de Bordeaux, la Villa Maria propose 1 200 m² de surfaces
         intérieures et extérieures pour des baptêmes de 30 à 120 invités. Atouts
@@ -242,7 +242,7 @@ export const ARTICLE_BODIES: Record<string, () => JSX.Element> = {
       <h3>1. Villa Maria — Bordeaux</h3>
       <p>
         Une piscine extérieure dans un parc arboré, au cœur d'une villa
-        bourgeoise du XVIIIᵉ. Accès inclus dans tous les abonnements.
+        Belle Époque. Accès inclus dans tous les abonnements.
       </p>
       <p>
         2 à 5 — <Placeholder>autres adresses à rédiger</Placeholder>

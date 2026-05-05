@@ -81,7 +81,7 @@ const Index = () => {
     "@type": "LocalBusiness",
     name: "Villa Maria",
     description:
-      "Coworking premium et lieu d'événements dans une villa du XVIIIᵉ à Bordeaux.",
+      "Coworking premium et lieu d'événements dans une villa Belle Époque à Bordeaux.",
     url: SITE.baseUrl,
     image: `${SITE.baseUrl}/og-image.jpg`,
     telephone: SITE.contact.phone,
@@ -100,7 +100,7 @@ const Index = () => {
     <Layout headerVariant="dark">
       <SEO
         title="Villa Maria — Coworking premium à Bordeaux | Piscine, bureaux, événements"
-        description="Le plus beau bureau de France. Coworking, bureaux privatifs, salles de réunion et lieu d'événements dans une villa du XVIIIᵉ à Bordeaux. Pass journée, abonnement mensuel, événements."
+        description="Le plus beau bureau de France. Coworking, bureaux privatifs, salles de réunion et lieu d'événements dans une villa Belle Époque à Bordeaux. Pass journée, abonnement mensuel, événements."
         path="/"
         jsonLd={localBusinessLd}
       />
@@ -131,7 +131,7 @@ const Index = () => {
               de France.
             </h1>
             <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
-              Une villa bourgeoise du XVIIIᵉ. Une piscine. Un boulodrome. 1 200
+              Une villa Belle Époque. Une piscine. Un boulodrome. 1 200
               m² pour travailler comme on n'a jamais travaillé.
             </p>
 

@@ -50,7 +50,7 @@ const Evenements = () => {
     "@type": "EventVenue",
     name: "Villa Maria — Lieu d'événements à Bordeaux",
     description:
-      "Privatisation d'une villa du XVIIIᵉ pour vos événements d'entreprise et privés à Bordeaux : baptêmes, mariages, séminaires, afterworks.",
+      "Privatisation d'une villa Belle Époque pour vos événements d'entreprise et privés à Bordeaux : baptêmes, mariages, séminaires, afterworks.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Bordeaux",
@@ -62,8 +62,8 @@ const Evenements = () => {
   return (
     <Layout headerVariant="dark">
       <SEO
-        title="Lieu d'événements à Bordeaux — Privatisation villa XVIIIᵉ — Villa Maria"
-        description="Privatisez une villa du XVIIIᵉ avec jardin et piscine pour vos événements à Bordeaux : baptêmes, mariages, séminaires, afterworks, petits-déjeuners networking."
+        title="Lieu d'événements à Bordeaux — Privatisation villa Belle Époque — Villa Maria"
+        description="Privatisez une villa Belle Époque avec jardin et piscine pour vos événements à Bordeaux : baptêmes, mariages, séminaires, afterworks, petits-déjeuners networking."
         path="/evenements"
         jsonLd={eventLd}
       />

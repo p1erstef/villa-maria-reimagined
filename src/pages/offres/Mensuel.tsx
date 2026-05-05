@@ -7,7 +7,7 @@ const OffreMensuel = () => {
     <OffreLayout
       offre={offre}
       metaTitle="Coworking mensuel Bordeaux — 375€/poste — Villa Maria"
-      metaDesc="Abonnement mensuel coworking dans une villa du XVIIIᵉ à Bordeaux. 375€ HT/poste, tout inclus : salles de réunion, piscine, boulodrome, fibre dédiée."
+      metaDesc="Abonnement mensuel coworking dans une villa Belle Époque à Bordeaux. 375€ HT/poste, tout inclus : salles de réunion, piscine, boulodrome, fibre dédiée."
       longIntro="375€ HT par poste et par mois. Tout est inclus. Vous travaillez dans le plus beau bureau de Bordeaux. C'est tout."
       idealPour={[
         "Freelances qui en ont assez du café",
