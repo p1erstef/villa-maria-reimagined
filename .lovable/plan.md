@@ -1,4 +1,3 @@
-
 # Refonte du site Villa Maria
 
 Refonte complète du site selon le plan d'action fourni, en conservant la direction artistique actuelle (typo XXL bold, accent rose/terracotta, photos pleine puissance) et en récupérant directement les assets du site Webflow existant (logo, photos villa, photos événements, icônes services).
@@ -30,7 +29,8 @@ Refonte complète du site selon le plan d'action fourni, en conservant la direct
 ## Page par page
 
 ### Accueil `/`
-- **Hero** : titre choc "Le bureau le plus beau de France." + sous-titre, image de fond façade/piscine (placeholder vidéo prêt à brancher), 4 CTA distincts (Journée · Mensuel · Privé · Événement)
+
+- **Hero** : titre choc "Le plus beau bureau de France." + sous-titre, image de fond façade/piscine (placeholder vidéo prêt à brancher), 4 CTA distincts (Journée · Mensuel · Privé · Événement)
 - **Bloc chiffres** : 1 200 m² · 5 salles · +50 coworkers · 4,9/5 (chiffres marqués `[à confirmer]`)
 - **4 cartes tarifs** visibles immédiatement avec prix ou "à partir de" + CTA propre
 - **Galerie éditoriale** 5 photos en grille fixe (piscine, escalier, salle lumineuse, jardin, terrasse)
@@ -40,10 +40,13 @@ Refonte complète du site selon le plan d'action fourni, en conservant la direct
 - **Carte + infos pratiques** : Google Maps embed, parking, tram/bus, horaires, contact
 
 ### Hub Offres `/offres`
+
 Grille des 4 offres avec photo, prix, public cible, lien vers la sous-page dédiée.
 
 ### Sous-pages offres (4)
+
 Structure commune : hero photo + prix affiché + ce qui est inclus + idéal pour + CTA dédié.
+
 - **Journée** → bouton vers Tydeck (URL existante conservée)
 - **Mensuel (375€ HT/poste)** → formulaire Tally "Demander une visite"
 - **Privatif** → formulaire Tally "Demander un devis bureau"
@@ -52,6 +55,7 @@ Structure commune : hero photo + prix affiché + ce qui est inclus + idéal pour
 > Les URLs Tally sont à fournir au fur et à mesure (placeholders en attendant, l'URL Tally actuelle `KY6vyX` est branchée par défaut).
 
 ### Événements `/evenements`
+
 - Hero dédié (photo GardenParty pleine largeur)
 - Bloc capacité intérieur/extérieur (placeholders `[à confirmer]`)
 - 4 blocs types : Baptême/Mariage · Afterwork/Team building · Séminaire · Petit-déj/Networking
@@ -60,15 +64,18 @@ Structure commune : hero photo + prix affiché + ce qui est inclus + idéal pour
 - Témoignages événementiels séparés
 
 ### La Villa `/la-villa`
+
 Page expérience par espaces : Entrée & escalier · Salles de travail · Extérieur/Piscine · Boulodrome · Salles de réunion · Espace détente. Chaque espace = photo grand format + légende (surface, ambiance, usage). Bloc "visite virtuelle" prêt à recevoir un embed Matterport plus tard.
 
 ### Histoire `/histoire`
+
 - Storytelling court du projet (placeholder éditable)
 - Mention du partenariat crèche Le Kocon
 - Grille des fondateurs avec emplacements pour portraits individuels (en attendant : extraits de la photo de groupe actuelle marqués `[portrait pro à venir]`)
 - Bloc valeurs/engagements optionnel
 
 ### Blog `/blog`
+
 - Index avec cartes d'articles, filtres par famille (Intention d'achat · Différenciation · Lifestyle · Guides)
 - 3 articles seed rédigés en MDX/markdown placeholder avec structure GEO (réponse directe en intro, fiche récap en fin) :
   1. Plus beaux lieux pour un baptême à Bordeaux
@@ -111,6 +118,7 @@ Page expérience par espaces : Entrée & escalier · Salles de travail · Extér
 ## Ce qui reste à fournir après le build
 
 Marqué clairement dans l'UI avec des balises `[à compléter]` :
+
 - Vidéo hero drone + intérieur
 - Chiffres réels (m², coworkers, note Google)
 - Avis clients + portraits coworkers
