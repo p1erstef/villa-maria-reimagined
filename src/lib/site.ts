@@ -6,9 +6,9 @@ export const SITE = {
   baseUrl: "https://www.villamariabordeaux.fr",
   tagline: "Le plus beau bureau de France.",
   address: {
-    street: "[adresse à confirmer]",
+    street: "31 avenue de Mirande",
     city: "Bordeaux",
-    postal: "[code postal]",
+    postal: "33200",
     country: "France",
   },
   contact: {
@@ -24,7 +24,7 @@ export const SITE = {
     visiteMensuel: "https://tally.so/r/KY6vyX", // [à remplacer]
     devisPrivatif: "https://tally.so/r/KY6vyX", // [à remplacer]
     reservationSalle: "https://tally.so/r/KY6vyX", // [à remplacer]
-    devisEvenement: "https://tally.so/r/KY6vyX", // [à remplacer]
+    devisEvenement: "https://tally.so/r/Me8qN8",
     contact: "https://tally.so/r/KY6vyX",
   },
   social: {

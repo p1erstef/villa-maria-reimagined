@@ -124,9 +124,9 @@ const Index = () => {
               Coworking & Événements · Bordeaux
             </div>
             <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl xl:text-[10rem] uppercase leading-[0.85] text-balance">
-              Les plus beaux
+              Le plus beau
               <br />
-              <span className="text-accent">bureaux</span>
+              <span className="text-accent">bureau</span>
               <br />
               de France.
             </h1>
