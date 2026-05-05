@@ -128,7 +128,7 @@ const Index = () => {
               <br />
               <span className="text-accent">bureaux</span>
               <br />
-              de Bordeaux.
+              de France.
             </h1>
             <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
               Une villa bourgeoise du XVIIIᵉ. Une piscine. Un boulodrome. 1 200
@@ -295,6 +295,52 @@ const Index = () => {
         </div>
       </section>
 
+      {/* EVENEMENTIEL TEASER — insérer après la section galerie */}
+      <section className="py-20 lg:py-28 bg-villa-noir text-villa-cream">
+        <div className="container-villa grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
+              Privatisation
+            </div>
+            <h2 className="font-display text-4xl lg:text-5xl uppercase leading-tight mb-6">
+              Votre événement mérite mieux qu'une salle d'hôtel.
+            </h2>
+            <p className="font-serif italic text-xl text-villa-cream/80 mb-8">
+              Baptêmes, séminaires, afterworks, mariages. Jusqu'à 200 personnes.
+              Jardin, piscine, boulodrome — tout compris dans la privatisation.
+            </p>
+            <div className="flex flex-wrap gap-3 mb-8">
+              {[
+                "Baptême · Mariage",
+                "Séminaire d'entreprise",
+                "Afterwork · Team building",
+                "Petit-déjeuner networking",
+              ].map((t) => (
+                <span
+                  key={t}
+                  className="px-4 py-2 border border-villa-cream/25 text-villa-cream/80 text-sm"
+                >
+                  {t}
+                </span>
+              ))}
+            </div>
+            <Link
+              to="/evenements"
+              className="inline-flex items-center gap-3 px-6 py-4 bg-accent text-accent-foreground font-bold uppercase tracking-wider text-sm hover:bg-villa-terracotta-deep transition-colors"
+            >
+              Voir les formules événements <ArrowRight size={16} />
+            </Link>
+          </div>
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src={garden}
+              alt="Garden party Villa Maria Bordeaux"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES INCLUS */}
       <section className="py-20 lg:py-28">
         <div className="container-villa">
@@ -454,7 +500,7 @@ const Index = () => {
           <div className="aspect-[4/3] bg-secondary overflow-hidden">
             <iframe
               title="Carte Villa Maria Bordeaux"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.123!2d-0.5803!3d44.8404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBordeaux!5e0!3m2!1sfr!2sfr!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4309.640406064867!2d-0.6017178!3d44.8441294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d80754639205%3A0xa8f164d5f8ed6a24!2sCOWORKING%20VILLA%20MARIA!5e1!3m2!1sfr!2sfr!4v1777989576470!5m2!1sfr!2sfr"
               width="100%"
               height="100%"
               style={{ border: 0 }}

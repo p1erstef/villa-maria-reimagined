@@ -28,7 +28,7 @@ export const OFFRES: Offre[] = [
     eyebrow: "Pass journalier",
     shortTitle: "Journée",
     title: "Une journée à la Villa",
-    price: "À partir de 35€",
+    price: "À partir de 25€",
     unit: "/ jour",
     priceNote: "Réservation directe via Tydeck",
     description:
@@ -57,7 +57,7 @@ export const OFFRES: Offre[] = [
     description:
       "Un poste de travail attitré dans un open space lumineux, avec accès à tous les services de la Villa. Idéal pour les indépendants qui veulent un vrai cadre de travail.",
     bullets: [
-      "Poste fixe attitré, écrans 24\" disponibles",
+      'Poste fixe attitré, écrans 24" disponibles',
       "Salles de réunion incluses (selon disponibilité)",
       "Accès 7j/7 — horaires étendus",
       "Crèche Le Kocon sur place (option)",

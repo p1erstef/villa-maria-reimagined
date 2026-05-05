@@ -49,7 +49,8 @@ const Evenements = () => {
     "@context": "https://schema.org",
     "@type": "EventVenue",
     name: "Villa Maria — Lieu d'événements à Bordeaux",
-    description: "Privatisation d'une villa du XVIIIᵉ pour vos événements d'entreprise et privés à Bordeaux : baptêmes, mariages, séminaires, afterworks.",
+    description:
+      "Privatisation d'une villa du XVIIIᵉ pour vos événements d'entreprise et privés à Bordeaux : baptêmes, mariages, séminaires, afterworks.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Bordeaux",
@@ -70,16 +71,23 @@ const Evenements = () => {
       {/* HERO */}
       <section className="relative -mt-20 min-h-[80vh] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src={garden} alt="Garden party à la Villa Maria" className="w-full h-full object-cover" />
+          <img
+            src={garden}
+            alt="Garden party à la Villa Maria"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-villa-noir via-villa-noir/40 to-villa-noir/20" />
         </div>
         <div className="relative container-villa pb-16 pt-32 text-villa-cream">
-          <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Événements & Privatisation</div>
+          <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
+            Événements & Privatisation
+          </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.9] max-w-4xl text-balance">
             Un écrin d'exception pour vos moments qui comptent.
           </h1>
           <p className="mt-8 font-serif italic text-2xl text-villa-cream/85 max-w-2xl">
-            1 200 m² intérieur, jardin, piscine, boulodrome. Privatisation totale ou partielle.
+            1 200 m² intérieur, jardin, piscine, boulodrome. Privatisation
+            totale ou partielle.
           </p>
         </div>
       </section>
@@ -87,26 +95,66 @@ const Evenements = () => {
       {/* CAPACITES */}
       <section className="bg-villa-noir text-villa-cream border-b border-villa-cream/10">
         <div className="container-villa py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div><div className="font-display text-4xl text-accent">120</div><div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">Cocktail intérieur <Placeholder>à confirmer</Placeholder></div></div>
-          <div><div className="font-display text-4xl text-accent">200</div><div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">Cocktail extérieur <Placeholder>à confirmer</Placeholder></div></div>
-          <div><div className="font-display text-4xl text-accent">80</div><div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">Dîner assis <Placeholder>à confirmer</Placeholder></div></div>
-          <div><div className="font-display text-4xl text-accent">60</div><div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">Théâtre / séminaire <Placeholder>à confirmer</Placeholder></div></div>
+          <div>
+            <div className="font-display text-4xl text-accent">120</div>
+            <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
+              Cocktail intérieur <Placeholder>à confirmer</Placeholder>
+            </div>
+          </div>
+          <div>
+            <div className="font-display text-4xl text-accent">200</div>
+            <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
+              Cocktail extérieur <Placeholder>à confirmer</Placeholder>
+            </div>
+          </div>
+          <div>
+            <div className="font-display text-4xl text-accent">80</div>
+            <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
+              Dîner assis <Placeholder>à confirmer</Placeholder>
+            </div>
+          </div>
+          <div>
+            <div className="font-display text-4xl text-accent">60</div>
+            <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
+              Théâtre / séminaire <Placeholder>à confirmer</Placeholder>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* 4 TYPES */}
       <section className="py-20 lg:py-28">
         <div className="container-villa">
-          <SectionTitle eyebrow="Types d'événements" title="Quatre formats, un même lieu." />
+          <SectionTitle
+            eyebrow="Types d'événements"
+            title="Quatre formats, un même lieu."
+          />
           <div className="grid md:grid-cols-2 gap-5">
             {TYPES.map((t) => (
-              <div key={t.title} className="p-8 border border-border bg-card hover:border-accent transition-colors">
+              <div
+                key={t.title}
+                className="p-8 border border-border bg-card hover:border-accent transition-colors"
+              >
                 <t.icon className="text-accent mb-5" size={28} />
-                <h3 className="font-display text-2xl uppercase mb-3">{t.title}</h3>
-                <p className="text-muted-foreground leading-relaxed mb-5">{t.desc}</p>
+                <h3 className="font-display text-2xl uppercase mb-3">
+                  {t.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed mb-5">
+                  {t.desc}
+                </p>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm pt-5 border-t border-border">
-                  <div><span className="text-xs uppercase tracking-widest text-muted-foreground">Capacité · </span>{t.capacity}</div>
-                  <div><span className="text-xs uppercase tracking-widest text-muted-foreground">Tarif · </span>{t.from}</div>
+                  <div>
+                    <span className="text-xs uppercase tracking-widest text-muted-foreground">
+                      Capacité ·{" "}
+                    </span>
+                    {t.capacity}
+                  </div>
+                  <div>
+                    <span className="text-xs uppercase tracking-widest text-muted-foreground">
+                      Tarif ·{" "}
+                    </span>
+                    {t.from}
+                  </div>
                 </div>
               </div>
             ))}
@@ -117,13 +165,46 @@ const Evenements = () => {
       {/* GALERIE */}
       <section className="py-20 lg:py-28 bg-secondary">
         <div className="container-villa">
-          <SectionTitle eyebrow="Ils ont privatisé" title="Quelques moments passés à la Villa." />
+          <SectionTitle
+            eyebrow="Ils ont privatisé"
+            title="Quelques moments passés à la Villa."
+          />
           <div className="grid grid-cols-12 gap-3">
-            <div className="col-span-12 md:col-span-8 aspect-[16/10] overflow-hidden"><img src={garden} alt="Garden party" className="w-full h-full object-cover" /></div>
-            <div className="col-span-6 md:col-span-4 aspect-square overflow-hidden"><img src={g2} alt="Événement extérieur" className="w-full h-full object-cover" /></div>
-            <div className="col-span-6 md:col-span-4 aspect-[4/5] overflow-hidden"><img src={g3} alt="Garden party 3" className="w-full h-full object-cover" /></div>
-            <div className="col-span-6 md:col-span-4 aspect-[4/5] overflow-hidden"><img src={e2} alt="Soirée Villa Maria" className="w-full h-full object-cover" /></div>
-            <div className="col-span-12 md:col-span-4 aspect-[4/5] overflow-hidden"><img src={e3} alt="Événement Villa Maria" className="w-full h-full object-cover" /></div>
+            <div className="col-span-12 md:col-span-8 aspect-[16/10] overflow-hidden">
+              <img
+                src={garden}
+                alt="Garden party"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-4 aspect-square overflow-hidden">
+              <img
+                src={g2}
+                alt="Événement extérieur"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-4 aspect-[4/5] overflow-hidden">
+              <img
+                src={g3}
+                alt="Garden party 3"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-4 aspect-[4/5] overflow-hidden">
+              <img
+                src={e2}
+                alt="Soirée Villa Maria"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="col-span-12 md:col-span-4 aspect-[4/5] overflow-hidden">
+              <img
+                src={e3}
+                alt="Événement Villa Maria"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -132,22 +213,41 @@ const Evenements = () => {
       <section className="py-20 lg:py-28">
         <div className="container-villa grid lg:grid-cols-[1fr_1fr] gap-12 items-center">
           <div>
-            <SectionTitle eyebrow="Demande de devis" title="Parlons de votre événement." />
+            <SectionTitle
+              eyebrow="Demande de devis"
+              title="Parlons de votre événement."
+            />
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Nous répondons à toutes les demandes sous 48h ouvrées avec une proposition
-              personnalisée : capacité, configuration, prestataires partenaires, tarif détaillé.
+              Nous répondons à toutes les demandes sous 48h ouvrées avec une
+              proposition personnalisée : capacité, configuration, prestataires
+              partenaires, tarif détaillé.
             </p>
             <ul className="space-y-3 text-sm">
-              <li className="flex gap-3"><span className="text-accent">→</span>Visite du lieu sur rendez-vous</li>
-              <li className="flex gap-3"><span className="text-accent">→</span>Liste de traiteurs partenaires (libre sur demande)</li>
-              <li className="flex gap-3"><span className="text-accent">→</span>Coordination avec vos prestataires (déco, AV, musique)</li>
-              <li className="flex gap-3"><span className="text-accent">→</span>Forfait clé en main possible</li>
+              <li className="flex gap-3">
+                <span className="text-accent">→</span>Visite du lieu sur
+                rendez-vous
+              </li>
+              <li className="flex gap-3">
+                <span className="text-accent">→</span>Liste de traiteurs
+                partenaires (libre sur demande)
+              </li>
+              <li className="flex gap-3">
+                <span className="text-accent">→</span>Coordination avec vos
+                prestataires (déco, AV, musique)
+              </li>
+              <li className="flex gap-3">
+                <span className="text-accent">→</span>Forfait clé en main
+                possible
+              </li>
             </ul>
           </div>
           <div className="bg-villa-noir text-villa-cream p-8 lg:p-10">
-            <h3 className="font-display text-3xl uppercase mb-6">Demander un devis</h3>
+            <h3 className="font-display text-3xl uppercase mb-6">
+              Demander un devis
+            </h3>
             <p className="text-villa-cream/80 mb-6 text-sm">
-              Formulaire détaillé : type d'événement, date, nombre d'invités, budget, message libre.
+              Formulaire détaillé : type d'événement, date, nombre d'invités,
+              budget, message libre.
             </p>
             <a
               href={SITE.tally.devisEvenement}
@@ -167,15 +267,22 @@ const Evenements = () => {
       {/* TEMOIGNAGES EVENEMENTIELS */}
       <section className="py-20 lg:py-28 bg-secondary">
         <div className="container-villa">
-          <SectionTitle eyebrow="Ils ont organisé ici" title="Retours d'expérience." />
+          <SectionTitle
+            eyebrow="Ils ont organisé ici"
+            title="Retours d'expérience."
+          />
           <div className="grid md:grid-cols-2 gap-5">
-            <Testimonial isPlaceholder
+            <Testimonial
+              isPlaceholder
               quote="Le baptême de notre fille — un cadre, une équipe, un service incroyables. Nos invités en parlent encore."
-              author="Prénom N." role="Cliente baptême"
+              author="Prénom N."
+              role="Cliente baptême"
             />
-            <Testimonial isPlaceholder
+            <Testimonial
+              isPlaceholder
               quote="On a privatisé pour notre séminaire de rentrée. L'équipe est rentrée requinquée — la piscine y est sûrement pour quelque chose."
-              author="Prénom N." role="DRH · entreprise B2B"
+              author="Prénom N."
+              role="DRH · entreprise B2B"
             />
           </div>
         </div>
