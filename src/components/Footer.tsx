@@ -13,7 +13,7 @@ export const Footer = () => {
           </p>
           <p className="mt-4 text-sm text-villa-cream/70 max-w-md">
             Espace de coworking premium et lieu d'événements dans une villa
-            bourgeoise du XVIIIᵉ à Bordeaux.
+            Belle Époque à Bordeaux.
           </p>
         </div>
 

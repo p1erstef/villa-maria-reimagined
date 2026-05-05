@@ -242,7 +242,7 @@ export const ARTICLE_BODIES: Record<string, () => JSX.Element> = {
       <h3>1. Villa Maria — Bordeaux</h3>
       <p>
         Une piscine extérieure dans un parc arboré, au cœur d'une villa
-        bourgeoise du XVIIIᵉ. Accès inclus dans tous les abonnements.
+        Belle Époque. Accès inclus dans tous les abonnements.
       </p>
       <p>
         2 à 5 — <Placeholder>autres adresses à rédiger</Placeholder>
