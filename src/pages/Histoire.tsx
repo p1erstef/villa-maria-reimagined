@@ -25,7 +25,7 @@ const Histoire = () => {
     <Layout>
       <SEO
         title="L'histoire de la Villa Maria — Fondateurs et vision"
-        description="Découvrez l'histoire et l'équipe fondatrice de la Villa Maria, espace de coworking et lieu d'événements dans une villa du XVIIIᵉ à Bordeaux."
+        description="Découvrez l'histoire et l'équipe fondatrice de la Villa Maria, espace de coworking et lieu d'événements dans une villa Belle Époque à Bordeaux."
         path="/histoire"
       />
 
@@ -35,7 +35,7 @@ const Histoire = () => {
           <div>
             <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Notre histoire</div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl uppercase leading-[0.9] mb-6 text-balance">
-              Une villa du XVIIIᵉ qu'on n'a pas voulu laisser dormir.
+              Une villa Belle Époque qu'on n'a pas voulu laisser dormir.
             </h1>
             <p className="font-serif italic text-2xl text-muted-foreground">
               Au départ, dix amis. Une demeure bourgeoise. Une idée simple : et si on en faisait
@@ -55,7 +55,7 @@ const Histoire = () => {
           <p className="text-lg leading-relaxed text-foreground mb-5">
             <Placeholder>storytelling court et sincère à rédiger — 400 mots max</Placeholder>
             En attendant le texte définitif, l'histoire en quelques mots : dix associés bordelais,
-            entrepreneurs et passionnés, ont repris une villa bourgeoise du XVIIIᵉ pour en faire
+            entrepreneurs et passionnés, ont repris une villa Belle Époque pour en faire
             un lieu hybride — coworking premium le jour, lieu d'événements le soir et le week-end.
           </p>
           <p className="text-lg leading-relaxed text-foreground mb-5">

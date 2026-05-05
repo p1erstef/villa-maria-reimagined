@@ -77,7 +77,7 @@ export const OFFRES: Offre[] = [
     price: "Sur devis",
     priceNote: "Capacité 2 à 10 personnes",
     description:
-      "Un bureau fermé rien qu'à votre équipe, dans une demeure du XVIIIᵉ. Pour les startups, filiales et équipes en télétravail partiel qui veulent un siège qui en jette.",
+      "Un bureau fermé rien qu'à votre équipe, dans une demeure Belle Époque. Pour les startups, filiales et équipes en télétravail partiel qui veulent un siège qui en jette.",
     bullets: [
       "Bureaux meublés et personnalisables",
       "Domiciliation entreprise incluse",
