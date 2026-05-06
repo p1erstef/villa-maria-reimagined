@@ -247,7 +247,7 @@ const Evenements = () => {
             </h3>
             <p className="text-villa-cream/80 mb-6 text-sm">
               Formulaire détaillé : type d'événement, date, nombre d'invités,
-              budget, message libre.
+              message libre.
             </p>
             <a
               href={SITE.tally.devisEvenement}
@@ -257,9 +257,6 @@ const Evenements = () => {
             >
               Ouvrir le formulaire <ArrowRight size={18} />
             </a>
-            <p className="mt-4 text-xs text-villa-cream/60">
-              Formulaire <Placeholder>Tally devis événement</Placeholder>
-            </p>
           </div>
         </div>
       </section>

@@ -431,9 +431,7 @@ const Index = () => {
                 <Star key={i} size={16} className="fill-accent text-accent" />
               ))}
             </div>
-            <span>
-              4,9/5 sur Google · <Placeholder>X avis</Placeholder>
-            </span>
+            <span>4,9/5 sur Google · 16 avis</span>
           </div>
         </div>
       </section>
