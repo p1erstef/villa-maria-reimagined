@@ -153,7 +153,7 @@ const Index = () => {
               de France.
             </h1>
             <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
-              Une villa Belle Époque. Une piscine. Un boulodrome. 1 200 m² pour
+              Une villa Belle Époque. Une piscine. Un boulodrome. 750 m² pour
               travailler comme on n'a jamais travaillé.
             </p>
 
@@ -202,7 +202,7 @@ const Index = () => {
       <section className="bg-villa-cream border-y border-border">
         <div className="container-villa py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { num: "650", unit: "m²", label: "de surfaces" },
+            { num: "750", unit: "m²", label: "de surfaces" },
             { num: "5", unit: "", label: "salles de réunion" },
             { num: "+80", unit: "", label: "coworkers actifs" },
             { num: "4,9", unit: "/5", label: "note Google" },
@@ -490,7 +490,14 @@ const Index = () => {
                 <dt className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">
                   Téléphone
                 </dt>
-                <dd className="text-sm">{SITE.contact.phone}</dd>
+                <dd className="text-sm">
+                  <a
+                    href={`tel:${SITE.contact.phone}`}
+                    className="hover:text-accent"
+                  >
+                    {SITE.contact.phone}
+                  </a>
+                </dd>
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">

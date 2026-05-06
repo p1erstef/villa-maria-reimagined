@@ -86,8 +86,8 @@ const Evenements = () => {
             Un écrin d'exception pour vos moments qui comptent.
           </h1>
           <p className="mt-8 font-serif italic text-2xl text-villa-cream/85 max-w-2xl">
-            1 200 m² intérieur, jardin, piscine, boulodrome. Privatisation
-            totale ou partielle.
+            750 m² intérieur, jardin, piscine, boulodrome. Privatisation totale
+            ou partielle.
           </p>
         </div>
       </section>

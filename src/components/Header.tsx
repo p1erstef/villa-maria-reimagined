@@ -33,12 +33,18 @@ export const Header = ({ variant = "light" }: HeaderProps) => {
     <header
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-colors duration-300",
-        scrolled ? "bg-villa-cream/95 backdrop-blur-md border-b border-border" : "bg-transparent",
-        variant === "light" && "bg-villa-cream border-b border-border"
+        scrolled
+          ? "bg-villa-cream/95 backdrop-blur-md border-b border-border"
+          : "bg-transparent",
+        variant === "light" && "bg-villa-cream border-b border-border",
       )}
     >
       <div className="container-villa flex items-center justify-between h-20">
-        <Link to="/" aria-label="Villa Maria — accueil" className="flex items-center">
+        <Link
+          to="/"
+          aria-label="Villa Maria — accueil"
+          className="flex items-center"
+        >
           <img
             src={isOverlay ? logoBlanc : logoNoir}
             alt="Villa Maria"
@@ -57,7 +63,7 @@ export const Header = ({ variant = "light" }: HeaderProps) => {
                   "text-sm font-semibold uppercase tracking-wider transition-colors",
                   textClass,
                   "hover:text-accent",
-                  isActive && "text-accent"
+                  isActive && "text-accent",
                 )
               }
             >
@@ -97,7 +103,7 @@ export const Header = ({ variant = "light" }: HeaderProps) => {
                 className={({ isActive }) =>
                   cn(
                     "text-lg font-bold uppercase tracking-wider py-2 text-villa-noir",
-                    isActive && "text-accent"
+                    isActive && "text-accent",
                   )
                 }
               >

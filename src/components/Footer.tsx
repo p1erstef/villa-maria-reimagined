@@ -24,7 +24,10 @@ export const Footer = () => {
           <ul className="space-y-3">
             {NAV.map((item) => (
               <li key={item.to}>
-                <Link to={item.to} className="text-sm hover:text-accent transition-colors">
+                <Link
+                  to={item.to}
+                  className="text-sm hover:text-accent transition-colors"
+                >
                   {item.label}
                 </Link>
               </li>
@@ -38,15 +41,26 @@ export const Footer = () => {
           </h3>
           <address className="not-italic text-sm space-y-3 text-villa-cream/85">
             <div>
-              {SITE.address.street}<br />
+              {SITE.address.street}
+              <br />
               {SITE.address.postal} {SITE.address.city}
             </div>
             <div>
-              <a href={`mailto:${SITE.contact.email}`} className="hover:text-accent">
+              <a
+                href={`mailto:${SITE.contact.email}`}
+                className="hover:text-accent"
+              >
                 {SITE.contact.email}
               </a>
             </div>
-            <div>{SITE.contact.phone}</div>
+            <div>
+              <a
+                href={`tel:${SITE.contact.phone}`}
+                className="hover:text-accent"
+              >
+                {SITE.contact.phone}
+              </a>
+            </div>
             <div>{SITE.hours}</div>
             <div className="pt-3">
               <a
@@ -64,10 +78,16 @@ export const Footer = () => {
 
       <div className="border-t border-villa-cream/10">
         <div className="container-villa py-6 flex flex-col md:flex-row gap-3 justify-between text-xs text-villa-cream/60">
-          <span>© {new Date().getFullYear()} Villa Maria — Tous droits réservés</span>
+          <span>
+            © {new Date().getFullYear()} Villa Maria — Tous droits réservés
+          </span>
           <div className="flex gap-6">
-            <Link to="/mentions-legales" className="hover:text-accent">Mentions légales</Link>
-            <Link to="/confidentialite" className="hover:text-accent">Confidentialité</Link>
+            <Link to="/mentions-legales" className="hover:text-accent">
+              Mentions légales
+            </Link>
+            <Link to="/confidentialite" className="hover:text-accent">
+              Confidentialité
+            </Link>
           </div>
         </div>
       </div>

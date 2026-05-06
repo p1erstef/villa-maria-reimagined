@@ -64,7 +64,7 @@ const LaVilla = () => {
     <Layout headerVariant="dark">
       <SEO
         title="Visiter la Villa Maria — Coworking & événements Bordeaux"
-        description="Découvrez la Villa Maria espace par espace : escalier d'honneur, salles de travail, jardin et piscine, boulodrome, salles de réunion. 1 200 m² au cœur de Bordeaux."
+        description="Découvrez la Villa Maria espace par espace : escalier d'honneur, salles de travail, jardin et piscine, boulodrome, salles de réunion. 750 m² au cœur de Bordeaux."
         path="/la-villa"
       />
 
@@ -85,8 +85,8 @@ const LaVilla = () => {
             Espace par espace.
           </h1>
           <p className="mt-6 font-serif italic text-2xl text-villa-cream/85 max-w-2xl">
-            1 200 m² racontés comme on visite un appartement qu'on hésite à
-            louer — sauf qu'on vous y attend.
+            750 m² racontés comme on visite un appartement qu'on hésite à louer
+            — sauf qu'on vous y attend.
           </p>
         </div>
       </section>
