@@ -145,14 +145,14 @@ const Index = () => {
               <span className="w-8 h-px bg-villa-cream" />
               Coworking & Événements · Bordeaux
             </div>
-            <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl xl:text-[10rem] uppercase leading-[0.85] text-balance">
+            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[10rem] uppercase leading-[0.85] text-balance">
               Le plus beau
               <br />
               <span className="text-accent">bureau</span>
               <br />
               de France.
             </h1>
-            <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
+            <p className="mt-6 lg:mt-8 font-serif italic text-xl lg:text-2xl xl:text-3xl text-villa-cream/90 max-w-2xl">
               Une villa Belle Époque. Une piscine. Un boulodrome. 750 m² pour
               travailler comme on n'a jamais travaillé.
             </p>
