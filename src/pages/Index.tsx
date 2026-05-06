@@ -467,7 +467,7 @@ const Index = () => {
           <div>
             <SectionTitle
               eyebrow="Venir à la Villa"
-              title="Au cœur de Bordeaux."
+              title="Au cœur du quartier Primrose."
             />
             <dl className="grid grid-cols-2 gap-x-6 gap-y-5">
               <div>
