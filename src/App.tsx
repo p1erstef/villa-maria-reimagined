@@ -17,6 +17,7 @@ import LaVilla from "./pages/LaVilla";
 import Histoire from "./pages/Histoire";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
+import MentionsLegales from "./pages/MentionsLegales";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -41,6 +42,7 @@ const App = () => (
             <Route path="/histoire" element={<Histoire />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogArticle />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
