@@ -27,6 +27,28 @@ import iconNet from "@/assets/icons/internet.png";
 import iconManger from "@/assets/icons/salle-manger.png";
 import iconDouche from "@/assets/icons/douche.png";
 
+import logoAlgolia from "@/assets/clients/algolia.png";
+import logoBlablacar from "@/assets/clients/blablacar.png";
+import logoClairLagon from "@/assets/clients/clair-lagon.png";
+import logoCosa from "@/assets/clients/cosa.png";
+import logoDedomainia from "@/assets/clients/dedomainia.png";
+import logoKapsul from "@/assets/clients/kapsul.png";
+import logoKymono from "@/assets/clients/kymono.jpg";
+import logoSellsy from "@/assets/clients/sellsy.png";
+import logoVictoriaGarden from "@/assets/clients/victoria-garden.png";
+
+const CLIENTS = [
+  { src: logoAlgolia, name: "Algolia" },
+  { src: logoBlablacar, name: "BlaBlaCar" },
+  { src: logoSellsy, name: "Sellsy" },
+  { src: logoKymono, name: "Kymono" },
+  { src: logoVictoriaGarden, name: "Victoria Garden" },
+  { src: logoClairLagon, name: "Clair Lagon" },
+  { src: logoCosa, name: "Cosa" },
+  { src: logoKapsul, name: "Kapsul" },
+  { src: logoDedomainia, name: "Dedomainia" },
+];
+
 const SERVICES = [
   {
     icon: iconPoste,
