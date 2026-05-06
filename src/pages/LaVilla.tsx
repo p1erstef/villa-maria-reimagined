@@ -70,16 +70,23 @@ const LaVilla = () => {
 
       <section className="relative -mt-20 h-[70vh] min-h-[500px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src={facade} alt="Façade Villa Maria" className="w-full h-full object-cover" />
+          <img
+            src={facade}
+            alt="Façade Villa Maria"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-villa-noir/85 via-villa-noir/30 to-transparent" />
         </div>
         <div className="relative container-villa pb-16 pt-32 text-villa-cream">
-          <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">La Villa</div>
+          <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
+            La Villa
+          </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.9] max-w-3xl">
             Espace par espace.
           </h1>
           <p className="mt-6 font-serif italic text-2xl text-villa-cream/85 max-w-2xl">
-            1 200 m² racontés comme on visite un appartement qu'on hésite à louer — sauf qu'on vous y attend.
+            1 200 m² racontés comme on visite un appartement qu'on hésite à
+            louer — sauf qu'on vous y attend.
           </p>
         </div>
       </section>
@@ -87,19 +94,33 @@ const LaVilla = () => {
       <section className="py-16 lg:py-20">
         <div className="container-villa space-y-20 lg:space-y-32">
           {ESPACES.map((e, i) => (
-            <article key={e.title} className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <article
+              key={e.title}
+              className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center"
+            >
               <div className={i % 2 ? "lg:order-2" : ""}>
                 <div className="aspect-[4/5] overflow-hidden">
-                  <img src={e.image} alt={e.title} className="w-full h-full object-cover" />
+                  <img
+                    src={e.image}
+                    alt={e.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className={i % 2 ? "lg:order-1" : ""}>
                 <div className="text-xs font-bold uppercase tracking-widest text-accent mb-3">
-                  Espace {String(i + 1).padStart(2, "0")} / {String(ESPACES.length).padStart(2, "0")}
+                  Espace {String(i + 1).padStart(2, "0")} /{" "}
+                  {String(ESPACES.length).padStart(2, "0")}
                 </div>
-                <h2 className="font-display text-4xl lg:text-5xl uppercase leading-tight mb-3">{e.title}</h2>
-                <div className="text-sm text-muted-foreground uppercase tracking-wider mb-6">{e.surface}</div>
-                <p className="text-lg leading-relaxed text-foreground mb-6">{e.desc}</p>
+                <h2 className="font-display text-4xl lg:text-5xl uppercase leading-tight mb-3">
+                  {e.title}
+                </h2>
+                <div className="text-sm text-muted-foreground uppercase tracking-wider mb-6">
+                  {e.surface}
+                </div>
+                <p className="text-lg leading-relaxed text-foreground mb-6">
+                  {e.desc}
+                </p>
                 <blockquote className="font-serif italic text-xl border-l-2 border-accent pl-5 text-muted-foreground">
                   « {e.quote} » <Placeholder>témoignage à valider</Placeholder>
                 </blockquote>
@@ -112,28 +133,20 @@ const LaVilla = () => {
       {/* Petite galerie additionnelle */}
       <section className="py-16 bg-secondary">
         <div className="container-villa">
-          <SectionTitle eyebrow="Plus d'images" title="Quelques détails en passant." />
+          <SectionTitle
+            eyebrow="Plus d'images"
+            title="Quelques détails en passant."
+          />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[rdc29, leet, c, salle1].map((img, i) => (
               <div key={i} className="aspect-square overflow-hidden">
-                <img src={img} alt={`Détail Villa Maria ${i + 1}`} className="w-full h-full object-cover" />
+                <img
+                  src={img}
+                  alt={`Détail Villa Maria ${i + 1}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Visite virtuelle */}
-      <section className="py-20 lg:py-28">
-        <div className="container-villa">
-          <div className="bg-villa-noir text-villa-cream p-10 lg:p-16 text-center">
-            <div className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Visite virtuelle</div>
-            <h2 className="font-display text-4xl lg:text-5xl uppercase mb-5">Bientôt en 3D.</h2>
-            <p className="font-serif italic text-xl text-villa-cream/80 max-w-2xl mx-auto">
-              Une visite virtuelle Matterport est en préparation — vous pourrez bientôt vous promener
-              dans toute la villa depuis votre canapé.
-            </p>
-            <div className="mt-6"><Placeholder>embed Matterport à brancher</Placeholder></div>
           </div>
         </div>
       </section>

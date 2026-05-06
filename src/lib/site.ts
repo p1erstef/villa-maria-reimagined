@@ -13,7 +13,7 @@ export const SITE = {
   },
   contact: {
     email: "contact@villamariabordeaux.fr",
-    phone: "[téléphone à confirmer]",
+    phone: "05 56 48 46 00",
   },
   hours: "Lun–Ven · 8h–20h",
   // External booking & forms

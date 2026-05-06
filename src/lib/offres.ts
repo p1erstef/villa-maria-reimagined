@@ -35,7 +35,7 @@ export const OFFRES: Offre[] = [
       "Pour les nomades, freelances et télétravailleurs occasionnels qui veulent goûter au plus beau bureau de Bordeaux le temps d'une journée.",
     bullets: [
       "Wifi fibre professionnelle dédiée",
-      "Café, thé et collations à volonté",
+      "Café et thé à discrétion",
       "Accès piscine et boulodrome",
       "Bulles téléphoniques insonorisées",
       "Salle à manger et terrasse",
@@ -57,10 +57,9 @@ export const OFFRES: Offre[] = [
     description:
       "Un poste de travail attitré dans un open space lumineux, avec accès à tous les services de la Villa. Idéal pour les indépendants qui veulent un vrai cadre de travail.",
     bullets: [
-      'Poste fixe attitré, écrans 24" disponibles',
+      "Poste fixe attitré",
       "Salles de réunion incluses (selon disponibilité)",
-      "Accès 7j/7 — horaires étendus",
-      "Crèche Le Kocon sur place (option)",
+      "Accès du lundi au vendredi — horaires étendus",
       "Domiciliation possible",
     ],
     audience: "Freelances · Consultants · Indépendants",
@@ -81,7 +80,7 @@ export const OFFRES: Offre[] = [
     bullets: [
       "Bureaux meublés et personnalisables",
       "Domiciliation entreprise incluse",
-      "Salles de réunion à tarifs préférentiels",
+      "Salles de réunion incluses (selon disponibilité)",
       "Tous les services Villa (piscine, boulodrome…)",
       "Engagement souple — durée à définir",
     ],

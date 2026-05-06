@@ -131,8 +131,8 @@ const Index = () => {
               de France.
             </h1>
             <p className="mt-8 font-serif italic text-2xl lg:text-3xl text-villa-cream/90 max-w-2xl">
-              Une villa Belle Époque. Une piscine. Un boulodrome. 1 200
-              m² pour travailler comme on n'a jamais travaillé.
+              Une villa Belle Époque. Une piscine. Un boulodrome. 1 200 m² pour
+              travailler comme on n'a jamais travaillé.
             </p>
 
             <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-3 max-w-3xl">
@@ -180,9 +180,9 @@ const Index = () => {
       <section className="bg-villa-cream border-y border-border">
         <div className="container-villa py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { num: "1 200", unit: "m²", label: "de surfaces" },
+            { num: "650", unit: "m²", label: "de surfaces" },
             { num: "5", unit: "", label: "salles de réunion" },
-            { num: "+50", unit: "", label: "coworkers actifs" },
+            { num: "+80", unit: "", label: "coworkers actifs" },
             { num: "4,9", unit: "/5", label: "note Google" },
           ].map((s) => (
             <div key={s.label} className="text-center">
@@ -191,7 +191,7 @@ const Index = () => {
                 <span className="text-2xl text-accent">{s.unit}</span>
               </div>
               <div className="mt-2 text-xs uppercase tracking-widest text-muted-foreground flex items-center justify-center gap-2">
-                {s.label} <Placeholder>à confirmer</Placeholder>
+                {s.label}
               </div>
             </div>
           ))}
@@ -481,19 +481,17 @@ const Index = () => {
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">
-                  Tram / Bus
+                  Bus
                 </dt>
                 <dd className="text-sm">
-                  <Placeholder>lignes à préciser</Placeholder>
+                  Cité Administrative (lignes H, 9 et 70)
                 </dd>
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">
                   Parking
                 </dt>
-                <dd className="text-sm">
-                  <Placeholder>à préciser</Placeholder>
-                </dd>
+                <dd className="text-sm">Parking vélo privé</dd>
               </div>
             </dl>
           </div>
