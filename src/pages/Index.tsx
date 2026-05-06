@@ -444,16 +444,16 @@ const Index = () => {
           <p className="text-center text-xs font-bold uppercase tracking-widest text-muted-foreground mb-8">
             Ils nous font confiance
           </p>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-8 items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-x-12 gap-y-10 items-center max-w-5xl mx-auto">
             {CLIENTS.map((c) => (
               <div
                 key={c.name}
-                className="flex items-center justify-center h-12"
+                className="flex items-center justify-center h-20 md:h-24"
               >
                 <img
                   src={c.src}
                   alt={c.name}
-                  className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+                  className="max-h-full max-w-[80%] object-contain opacity-80 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
                 />
               </div>
             ))}
