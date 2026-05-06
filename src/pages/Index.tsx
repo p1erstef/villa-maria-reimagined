@@ -444,13 +444,17 @@ const Index = () => {
           <p className="text-center text-xs font-bold uppercase tracking-widest text-muted-foreground mb-8">
             Ils nous font confiance
           </p>
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-6 items-center">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-8 items-center">
+            {CLIENTS.map((c) => (
               <div
-                key={i}
-                className="aspect-[3/1] bg-secondary border border-dashed border-border flex items-center justify-center text-xs text-muted-foreground"
+                key={c.name}
+                className="flex items-center justify-center h-12"
               >
-                <Placeholder>logo client {i}</Placeholder>
+                <img
+                  src={c.src}
+                  alt={c.name}
+                  className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+                />
               </div>
             ))}
           </div>
