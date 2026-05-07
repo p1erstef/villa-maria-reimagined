@@ -36,6 +36,8 @@ import logoKapsul from "@/assets/clients/kapsul.png";
 import logoKymono from "@/assets/clients/kymono.jpg";
 import logoSellsy from "@/assets/clients/sellsy.png";
 import logoVictoriaGarden from "@/assets/clients/victoria-garden.png";
+import logoPennylane from "@/assets/clients/pennylane.png";
+import logoAlma from "@/assets/clients/alma.png";
 
 const CLIENTS = [
   { src: logoAlgolia, name: "Algolia" },
@@ -47,6 +49,8 @@ const CLIENTS = [
   { src: logoCosa, name: "Cosa" },
   { src: logoKapsul, name: "Kapsul" },
   { src: logoDedomainia, name: "Dedomainia" },
+  { src: logoPennylane, name: "Pennylane" },
+  { src: logoAlma, name: "Alma" },
 ];
 
 const SERVICES = [
