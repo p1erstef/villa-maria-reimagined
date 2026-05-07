@@ -32,8 +32,7 @@ export const SITE = {
     linkedin: "#",
   },
   partners: {
-    creche:
-      "https://motherworkcommunity.com/index.php/la-creche-les-petits-preneurs/",
+    creche: "https://lekocon.fr/",
   },
 };
 

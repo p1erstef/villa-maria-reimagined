@@ -2,7 +2,10 @@
 import { SITE } from "./site";
 import facade from "@/assets/villa/facade.jpg";
 import salle from "@/assets/villa/salle-1.jpg";
+import extension from "@/assets/villa/extension.jpg";
 import rdc from "@/assets/villa/rdc.jpg";
+import boudoir from "@/assets/villa/boudoir.jpg";
+import salleVitrail from "@/assets/villa/salleVitrail.jpg";
 import r2 from "@/assets/villa/r2.jpg";
 
 export interface Offre {
@@ -66,7 +69,7 @@ export const OFFRES: Offre[] = [
     cta: "Demander une visite",
     href: SITE.tally.visiteMensuel,
     to: "/offres/mensuel",
-    image: salle,
+    image: extension,
   },
   {
     slug: "prive",
@@ -74,7 +77,7 @@ export const OFFRES: Offre[] = [
     shortTitle: "Privatif",
     title: "Bureau privatif d'équipe",
     price: "Sur devis",
-    priceNote: "Capacité 2 à 10 personnes",
+    priceNote: "Capacité 3 à 10 personnes",
     description:
       "Un bureau fermé rien qu'à votre équipe, dans une demeure Belle Époque. Pour les startups, filiales et équipes en télétravail partiel qui veulent un siège qui en jette.",
     bullets: [
@@ -88,30 +91,30 @@ export const OFFRES: Offre[] = [
     cta: "Demander un devis",
     href: SITE.tally.devisPrivatif,
     to: "/offres/prive",
-    image: rdc,
+    image: boudoir,
   },
   {
     slug: "salles",
     eyebrow: "Salles de réunion",
     shortTitle: "Salles",
     title: "Salles à l'heure ou la journée",
-    price: "À partir de 40€",
+    price: "À partir de 80€",
     unit: "/ heure",
-    priceNote: "5 salles · 4 à 20 personnes",
+    priceNote: "5 salles · 6 à 20 personnes",
     description:
       "Cinq salles équipées écran et caméra pour vos réunions, ateliers, formations et présentations clients dans un cadre qui change.",
     bullets: [
       "Écrans 4K + caméra + visioconférence",
       "Wifi fibre dédiée",
       "Configurations modulables",
-      "Café et eaux à volonté",
+      "Café et thé à volonté",
       "Possibilité de pause déjeuner sur place",
     ],
     audience: "Équipes · Formateurs · Consultants",
     cta: "Réserver une salle",
     href: SITE.tally.reservationSalle,
     to: "/offres/salles",
-    image: r2,
+    image: salleVitrail,
   },
 ];
 

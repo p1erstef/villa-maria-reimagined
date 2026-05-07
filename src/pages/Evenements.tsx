@@ -26,21 +26,21 @@ const TYPES = [
     title: "Afterwork · Team building",
     desc: "Boulodrome, piscine, espace extérieur. Forfaits all-in pour réunir vos équipes dans un cadre qui change.",
     capacity: "20 à 100 personnes",
-    from: "À partir de 45€/pers",
+    from: "Sur devis",
   },
   {
     icon: Briefcase,
     title: "Séminaire d'entreprise",
     desc: "5 salles équipées, fibre dédiée, journée type clés en main avec prestataires AV partenaires.",
     capacity: "10 à 60 personnes",
-    from: "À partir de 90€/pers",
+    from: "Sur devis",
   },
   {
     icon: Users,
     title: "Petit-déjeuner · Networking",
     desc: "Format court le matin, idéal pour associations professionnelles, clubs Bordeaux et événements partenaires.",
     capacity: "20 à 80 personnes",
-    from: "À partir de 25€/pers",
+    from: "Sur devis",
   },
 ];
 
@@ -86,37 +86,31 @@ const Evenements = () => {
             Un écrin d'exception pour vos moments qui comptent.
           </h1>
           <p className="mt-8 font-serif italic text-2xl text-villa-cream/85 max-w-2xl">
-            750 m² intérieur, jardin, piscine, boulodrome. Privatisation totale
-            ou partielle.
+            Espace de réception intérieur, jardin, piscine, boulodrome.
+            Privatisation totale ou partielle.
           </p>
         </div>
       </section>
 
       {/* CAPACITES */}
       <section className="bg-villa-noir text-villa-cream border-b border-villa-cream/10">
-        <div className="container-villa py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="container-villa py-12 grid grid-cols-2 md:grid-cols-3 gap-8">
           <div>
-            <div className="font-display text-4xl text-accent">120</div>
+            <div className="font-display text-4xl text-accent">100</div>
             <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
-              Cocktail intérieur <Placeholder>à confirmer</Placeholder>
+              capacité cocktail intérieur
             </div>
           </div>
           <div>
-            <div className="font-display text-4xl text-accent">200</div>
+            <div className="font-display text-4xl text-accent">120</div>
             <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
-              Cocktail extérieur <Placeholder>à confirmer</Placeholder>
+              capacité cocktail extérieur
             </div>
           </div>
           <div>
             <div className="font-display text-4xl text-accent">80</div>
             <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
-              Dîner assis <Placeholder>à confirmer</Placeholder>
-            </div>
-          </div>
-          <div>
-            <div className="font-display text-4xl text-accent">60</div>
-            <div className="text-xs uppercase tracking-widest text-villa-cream/60 mt-2 flex items-center gap-2">
-              Théâtre / séminaire <Placeholder>à confirmer</Placeholder>
+              capacité dîner assis
             </div>
           </div>
         </div>
@@ -142,20 +136,6 @@ const Evenements = () => {
                 <p className="text-muted-foreground leading-relaxed mb-5">
                   {t.desc}
                 </p>
-                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm pt-5 border-t border-border">
-                  <div>
-                    <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                      Capacité ·{" "}
-                    </span>
-                    {t.capacity}
-                  </div>
-                  <div>
-                    <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                      Tarif ·{" "}
-                    </span>
-                    {t.from}
-                  </div>
-                </div>
               </div>
             ))}
           </div>
@@ -233,7 +213,7 @@ const Evenements = () => {
               </li>
               <li className="flex gap-3">
                 <span className="text-accent">→</span>Coordination avec vos
-                prestataires (déco, AV, musique)
+                prestataires (traiteur, déco, musique)
               </li>
               <li className="flex gap-3">
                 <span className="text-accent">→</span>Forfait clé en main

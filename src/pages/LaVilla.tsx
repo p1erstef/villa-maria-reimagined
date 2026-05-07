@@ -6,9 +6,11 @@ import { Placeholder } from "@/components/Placeholder";
 
 import facade from "@/assets/villa/facade.jpg";
 import escalier from "@/assets/villa/escalier.jpg";
+import meetingRoom from "@/assets/villa/meeting-room.jpg";
 import salle1 from "@/assets/villa/salle-1.jpg";
 import rdc from "@/assets/villa/rdc.jpg";
 import r2 from "@/assets/villa/r2.jpg";
+import boulodrome from "@/assets/villa/boulodrome.jpg";
 import c from "@/assets/villa/c.jpg";
 import rdc29 from "@/assets/villa/rdc29.jpg";
 import leet from "@/assets/villa/leet.jpg";
@@ -18,15 +20,15 @@ const ESPACES = [
   {
     title: "Entrée & escalier d'honneur",
     surface: "Hall d'entrée",
-    desc: "L'arrivée. Marbre, hauteur sous plafond, escalier monumental — la première impression que vos invités gardent en mémoire.",
+    desc: "L'arrivée. Bois, hauteur sous plafond, escalier monumental — la première impression que vos invités gardent en mémoire.",
     image: escalier,
     quote: "Ma photo préférée du baptême, c'est l'escalier.",
   },
   {
-    title: "Salles de travail",
+    title: "Espaces de travail",
     surface: "≈ 400 m² · open space + bureaux fermés",
-    desc: "Lumière naturelle généreuse, hauteurs sous plafond, mobilier travaillé. Aucune salle ne se ressemble.",
-    image: salle1,
+    desc: "Lumière naturelle généreuse, hauteurs sous plafond, mobilier travaillé. Aucun espace ne se ressemble.",
+    image: r2,
     quote: "Je viens travailler ici juste pour la lumière du matin.",
   },
   {
@@ -40,14 +42,14 @@ const ESPACES = [
     title: "Boulodrome",
     surface: "Espace dédié extérieur",
     desc: "Tu tires ou tu pointes ? Le boulodrome règle plus de débats stratégiques que les salles de réunion.",
-    image: c,
+    image: boulodrome,
     quote: "Notre meilleur outil de team-building, sans hésiter.",
   },
   {
     title: "Salles de réunion",
     surface: "5 salles · 4 à 20 personnes",
     desc: "Toutes équipées écran 4K, caméra, visio. Configurations modulables : ateliers, formations, présentations clients.",
-    image: r2,
+    image: meetingRoom,
     quote: "On y reçoit nos clients VIP depuis 2 ans, jamais déçu.",
   },
   {
@@ -122,7 +124,7 @@ const LaVilla = () => {
                   {e.desc}
                 </p>
                 <blockquote className="font-serif italic text-xl border-l-2 border-accent pl-5 text-muted-foreground">
-                  « {e.quote} » <Placeholder>témoignage à valider</Placeholder>
+                  « {e.quote} »
                 </blockquote>
               </div>
             </article>
