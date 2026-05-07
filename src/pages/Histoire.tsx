@@ -90,7 +90,7 @@ const Histoire = () => {
           </p>
           <p className="text-lg leading-relaxed text-foreground mb-5">
             L'idée n'est pas neuve : créer un cadre de travail dont on ne veut
-            pas partir le soir. La différence, c'est l'exécution : 750 m², un
+            pas partir le soir. La différence, c'est l'exécution : 800 m², un
             parc, une piscine, un boulodrome, des services pensés pour la vraie
             vie de ceux qui travaillent ici.
           </p>

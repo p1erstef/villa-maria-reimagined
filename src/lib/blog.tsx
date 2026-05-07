@@ -177,7 +177,7 @@ export const ARTICLE_BODIES: Record<string, () => JSX.Element> = {
       <h2>Les 6 lieux qui sortent du lot</h2>
       <h3>1. Villa Maria — Demeure Belle Époque avec parc et piscine</h3>
       <p>
-        Située au cœur du quartier Primrose, la Villa Maria propose 750 m² de
+        Située au cœur du quartier Primrose, la Villa Maria propose 800 m² de
         surfaces intérieures et extérieures pour des baptêmes de 30 à 120
         invités. Atouts : escalier d'honneur photogénique, jardin arboré,
         piscine pour les plus chauds, traiteurs partenaires.

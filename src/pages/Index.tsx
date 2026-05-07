@@ -157,7 +157,7 @@ const Index = () => {
               de France.
             </h1>
             <p className="mt-6 lg:mt-8 font-serif italic text-xl lg:text-2xl xl:text-3xl text-villa-cream/90 max-w-2xl">
-              Une villa Belle Époque. Une piscine. Un boulodrome. 750 m² pour
+              Une villa Belle Époque. Une piscine. Un boulodrome. 800 m² pour
               travailler comme on n'a jamais travaillé.
             </p>
 
