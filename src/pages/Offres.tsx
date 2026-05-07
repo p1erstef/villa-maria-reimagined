@@ -19,7 +19,7 @@ const Offres = () => {
           <SectionTitle
             eyebrow="Quatre offres distinctes"
             title="Trouvez la vôtre."
-            subtitle="Pas d'enrobage marketing : prix affichés, services inclus listés, CTA propre à chaque offre."
+            subtitle="Pas d'enrobage marketing : prix affichés et services inclus listés."
           />
         </div>
       </section>
@@ -27,25 +27,51 @@ const Offres = () => {
       <section className="pb-20 lg:pb-28">
         <div className="container-villa space-y-6">
           {OFFRES.map((o, i) => (
-            <article key={o.slug} className="grid lg:grid-cols-[5fr_7fr] bg-card border border-border overflow-hidden">
-              <div className={`aspect-[4/3] lg:aspect-auto overflow-hidden ${i % 2 ? "lg:order-2" : ""}`}>
-                <img src={o.image} alt={o.title} className="w-full h-full object-cover" />
+            <article
+              key={o.slug}
+              className="grid lg:grid-cols-[5fr_7fr] bg-card border border-border overflow-hidden"
+            >
+              <div
+                className={`aspect-[4/3] lg:aspect-auto overflow-hidden ${i % 2 ? "lg:order-2" : ""}`}
+              >
+                <img
+                  src={o.image}
+                  alt={o.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-8 lg:p-12 flex flex-col">
-                <div className="text-xs font-bold uppercase tracking-widest text-accent mb-3">{o.eyebrow}</div>
-                <h2 className="font-display text-3xl lg:text-4xl uppercase leading-tight mb-4">{o.title}</h2>
+                <div className="text-xs font-bold uppercase tracking-widest text-accent mb-3">
+                  {o.eyebrow}
+                </div>
+                <h2 className="font-display text-3xl lg:text-4xl uppercase leading-tight mb-4">
+                  {o.title}
+                </h2>
                 <div className="flex items-baseline gap-2 mb-2">
                   <span className="font-display text-3xl">{o.price}</span>
-                  {o.unit && <span className="text-muted-foreground">{o.unit}</span>}
+                  {o.unit && (
+                    <span className="text-muted-foreground">{o.unit}</span>
+                  )}
                 </div>
-                {o.priceNote && <p className="text-xs text-muted-foreground mb-5">{o.priceNote}</p>}
-                <p className="text-base text-muted-foreground mb-5 leading-relaxed">{o.description}</p>
+                {o.priceNote && (
+                  <p className="text-xs text-muted-foreground mb-5">
+                    {o.priceNote}
+                  </p>
+                )}
+                <p className="text-base text-muted-foreground mb-5 leading-relaxed">
+                  {o.description}
+                </p>
                 <ul className="space-y-2 mb-6 text-sm">
                   {o.bullets.slice(0, 4).map((b) => (
-                    <li key={b} className="flex gap-3"><span className="text-accent">→</span>{b}</li>
+                    <li key={b} className="flex gap-3">
+                      <span className="text-accent">→</span>
+                      {b}
+                    </li>
                   ))}
                 </ul>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground mb-5">{o.audience}</div>
+                <div className="text-xs uppercase tracking-widest text-muted-foreground mb-5">
+                  {o.audience}
+                </div>
                 <div className="flex gap-3 mt-auto">
                   <a
                     href={o.to}

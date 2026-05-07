@@ -31,7 +31,7 @@ const TYPES = [
   {
     icon: Briefcase,
     title: "Séminaire d'entreprise",
-    desc: "5 salles équipées, fibre dédiée, journée type clés en main avec prestataires AV partenaires.",
+    desc: "5 salles équipées, fibre dédiée, journée type clés en main avec prestataires partenaires.",
     capacity: "10 à 60 personnes",
     from: "Sur devis",
   },
